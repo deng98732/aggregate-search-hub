@@ -1,0 +1,22 @@
+{
+  "name": "aggregate-search-hub",
+  "version": "1.0.0",
+  "description": "Aggregate search engine aggregating results from multiple sources",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "build": "cd client && npm run build",
+    "client": "cd client && npm run dev"
+  },
+  "keywords": ["search", "aggregation", "engine"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
